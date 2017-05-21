@@ -85,7 +85,7 @@ test_image = image.load_image('dataset/single_prediction/cat_or_dog_1.jpg',
 test_image = image.img_to_array(test_image)
 #Add one dimension again as done during training
 test_image = np.expand_dims(test_image, axis = 0)
-classifier.predict(test_image)
+result = classifier.predict(test_image)
 training_set.class_indices
 
 if(result[0][0] == 1):
