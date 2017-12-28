@@ -16,4 +16,4 @@ Deep Learning, on the other hand, are much more dynamic, not only do they Learn 
 
 The general template of any Classification step would consists of Making object of a classifier, fitting the training data, let the Machine learn, then provide it some data to predict and then Plot and viewing the results. 
 
-
+PS : For more info on the Code. Read through <a href="https://github.com/Shraddha2702/Deep-Learning-Projects/wiki">Wiki</a>
